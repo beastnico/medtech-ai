@@ -1,0 +1,42 @@
+streamlit==1.40.0
+python-dotenv==1.2.1
+
+# LangChain
+langchain==0.3.23
+langchain-community==0.3.21
+langchain-core==0.3.80
+langchain-huggingface==0.3.1
+langchain-groq==0.2.1
+langchain-text-splitters==0.3.11
+
+# Embeddings and vector store (CPU-only environment)
+faiss-cpu==1.13.2
+sentence-transformers==5.2.0
+
+# PyTorch CPU versions
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+
+# Document processing
+pypdf==5.1.0
+unstructured[pdf]==0.18.26
+pillow==9.5.0
+pytesseract==0.3.13
+pdf2image==1.17.0
+
+# Utilities
+requests==2.32.5
+numpy==1.26.4
+protobuf==5.29.5
+
+# TensorFlow CPU only
+tensorflow==2.20.0
+tf-keras==2.20.1
+
+# Development and testing tools (optional for production)
+pytest==8.4.2
+pytest-cov==7.0.0
+black==25.12.0
+flake8==7.3.0
+mypy==1.19.1

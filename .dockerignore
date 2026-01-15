@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pytest cache
+.pytest_cache/
+
+# IPython / Jupyter notebooks
+*.ipynb
+
+# Large folders, handled via volumes
+data/
+vectorstore/
+logs/
+
+# Environment files (sensitive)
+.env
+.env.example
+
+# VS Code / system files
+.vscode/
+*.swp
+*.DS_Store
+
+# Git
+.git/
+.gitattributes
+.gitignore
