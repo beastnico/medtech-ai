@@ -239,29 +239,6 @@ Does not require injecting a contrast medium
 Greater sensitivity for detecting disk problems and spinal cord involvement...
 ```
 
-## 🔧 Troubleshooting
-
-### Vector Store Not Found
-
-```cmd
-# Rebuild the vector store
-python scripts\build_vectorstore.py
-```
-
-### OCR Issues
-
-```cmd
-# Install Tesseract OCR
-# Windows
-# Download from: https://github.com/UB-Mannheim/tesseract/wiki
-
-# Ubuntu/Debian
-sudo apt-get install tesseract-ocr
-
-# macOS
-brew install tesseract
-```
-
 ### API Key Errors
 
 * Verify your `.env` file exists
